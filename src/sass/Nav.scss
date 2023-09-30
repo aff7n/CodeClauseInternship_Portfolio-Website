@@ -1,0 +1,114 @@
+$black: #000;
+$black_2: #303030;
+$white: #fff;
+$orange: #ff9933;
+$font-family_1: "League Spartan", sans-serif;
+$font-family_2: "Poppins", sans-serif;
+$background-grey: #eeeeee;
+
+.active {
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  transition: 0.3s linear;
+  // display: flex;
+  // justify-content: stretch;
+  // align-items: center;
+  // background-color: #ffffff;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  // z-index: 40;
+  // box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
+  /* padding: 0 7%; */
+}
+.hidden {
+  // height: 4rem;
+  // width: 100%;
+  z-index: 40;
+  position: fixed;
+  top: -80px;
+  transition: 0.3s linear;
+}
+
+.bg {
+  background-color: #01aad3;
+  background-image: url("https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/Hero.jpg");
+}
+
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-name {
+  color: $white;
+  text-shadow: none;
+  font-family: $font-family_1;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  text-decoration: none;
+
+  @media screen and (max-width: $sm) {
+    font-size: 22px;
+  }
+
+  @media screen and (max-width: $xs) {
+    font-size: 18px;
+  }
+}
+.navbar-dsgn {
+  letter-spacing: 5.7px;
+  font-size: 12px;
+  font-family: $font-family_1;
+  text-transform: uppercase;
+  color: $white;
+  margin: 0;
+  text-align: center;
+
+  @media screen and (max-width: $sm) {
+    font-size: 10px;
+    letter-spacing: 4.1px;
+  }
+
+  @media screen and (max-width: $xs) {
+    font-size: 8px;
+    letter-spacing: 3.8px;
+  }
+}
+.nav-link {
+  color: $white;
+  text-shadow: none;
+  font-family: $font-family_2;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+
+  @media screen and (max-width: $sm) {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: $xs) {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+#navbar1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item {
+  padding: 5px 10px;
+}
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}

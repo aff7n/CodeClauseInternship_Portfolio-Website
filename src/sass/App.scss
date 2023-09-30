@@ -1,0 +1,33 @@
+@import "./Hero.scss";
+@import "./Nav.scss";
+@import "./Sample.scss";
+@import "./Work.scss";
+@import "./Contact.scss";
+@import "./About.scss";
+
+$black: #000;
+$black_2: #303030;
+$white: #fff;
+$font-family_1: "League Spartan", sans-serif;
+$font-family_2: "Poppins", sans-serif;
+$background-grey: #eeeeee;
+
+body {
+  // background: url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/interlaced.png);
+  // background: #f7cb15;
+}
+
+/* Hero */
+/* .overlay {
+  background: rgba(255, 255, 255, 0.356);
+  height: 100vh;
+} */
+/* .hero h1,
+.hero p {
+  color: #000000;
+} */
+/* .coffee-logo {
+  width: 95px;
+  height: 95px;
+  padding-bottom: 20px;
+} */
